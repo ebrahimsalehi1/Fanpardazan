@@ -1,0 +1,23 @@
+.navbar {
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color:rgb(2, 15, 26);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.navbar a:hover:not(.active){
+    background-color: chartreuse;
+    color: blue;
+}
+
+.active {
+    background-color: forestgreen;
+    color: fuchsia;
+}
