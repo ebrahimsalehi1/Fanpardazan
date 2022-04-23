@@ -1,0 +1,59 @@
+GET http://localhost:1904/carts
+###
+GET http://localhost:1904/carts/7
+
+###
+POST http://localhost:1904/carts
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "date": "2022-04-11T00:06:02.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 1
+        }
+    ],
+    "__v": 0
+}
+
+###
+PUT http://localhost:1904/carts/7
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "date": "2022-04-11T00:06:02.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 3
+        }
+    ],
+    "__v": 0,
+    "id": 7
+}
+
+###
+DELETE http://localhost:1904/carts/7
+
+
+###
+GET http://localhost:1904/users?username=johnd&password=m38rmF$
+
+###
+GET http://localhost:1904/products
+
+###
+GET http://localhost:1904/categories
+
+###
+
+GET http://localhost:1904/carts?userId=1&date=2020-03-02T00:00:02.000Z
+
+###
+GET http://localhost:1904/carts?userId=1
+
+###
+GET http://localhost:1904/products/5
