@@ -1,0 +1,30 @@
+
+.product{
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.product:hover{
+    box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+
+.container{
+    padding:2px 16px
+}
+
+.image{
+    width:200px;
+    height:300px;
+}
+
+product-title:{
+    max-height: 30px;
+}
+
+.product-detail{
+    display:flex;
+    justify-content: space-between;
+    color:rgb(25, 42, 2);
+}
